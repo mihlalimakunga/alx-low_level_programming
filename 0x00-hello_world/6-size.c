@@ -11,9 +11,9 @@ int main()
 	long longType;
 	short shortType;
 
-	print("Size of int: %ld bytes\n",sizeof(intType));
-	print("Size of char: %ld bytes\n",sizeof(charType));
-	print("Size of long: %ld bytes\n",sizeof(longType));
-	print("Size of short: %ld bytes\n",sizeof(shortType));
+	printf("Size of int: %ld bytes\n",sizeof(intType));
+	printf("Size of char: %ld bytes\n",sizeof(charType));
+	printf("Size of long: %ld bytes\n",sizeof(longType));
+	printf("Size of short: %ld bytes\n",sizeof(shortType));
 	return (0)
 }
