@@ -6,14 +6,9 @@
  */
 int main()
 {
-	char charType;
-	int intType;
-	long longType;
-	short shortType;
-
-	printf("%ld\n",sizeof(intType));
-	printf("%l\n",sizeof(charType));
-	printf("%ld\n",sizeof(longType));
-	printf("%ld\n",sizeof(shortType));
+	printf("%lu\n", sizeof(char));
+	printf("%lu\n", sizeof(int));
+	printf("%lu\n", sizeof(float));
+	printf("%lu\n", sizeof(double));
 	return (0)
 }
