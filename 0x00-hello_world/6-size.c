@@ -7,7 +7,7 @@
 int main()
 {
 	char charType;
-	int integerType;
+	int intType;
 	long longType;
 	short shortType;
 
