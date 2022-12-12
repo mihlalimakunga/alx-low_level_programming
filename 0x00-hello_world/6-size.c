@@ -15,6 +15,5 @@ int main()
 	print("Size of char: %ld bytes\n",sizeof(charType));
 	print("Size of long: %ld bytes\n",sizeof(longType));
 	print("Size of short: %ld bytes\n",sizeof(shortType));
-
 	return (0)
 }
