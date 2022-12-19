@@ -8,21 +8,21 @@
 
 int main(void)
 
+{
+	int n;
+	char l;
+
+	for (n = '0'; n <= '9'; n++)
 	{
-		int x;
-		char y;
-
-		for (x = '0'; x <= '9'; x++)
-		{
-			putchar(x);
-		}
-
-		for (y = 'a', y <= 'f'; y++)
-		{
-			putchar(y);
-		}
-
-		putchar('\n');
-
-		return (0);
+		putchar(n);
 	}
+
+	for (l = 'a'; l <= 'f'; l++);
+	{
+		putchar(l);
+	}
+
+	putchar('\n');
+
+	return (0);
+}
